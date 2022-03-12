@@ -17,7 +17,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<p>Home</p>} />
-          <Route path="search" element={<p>Search</p>} />
+          <Route path="search:id" element={<p>Search</p>} />
+          <Route path="*" element={<p>404 Not Found</p>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
