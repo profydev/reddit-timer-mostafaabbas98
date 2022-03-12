@@ -1,11 +1,7 @@
 import React from 'react';
 
 function App() {
-  return (
-    <div>
-      App Placeholder
-    </div>
-  );
+  return <p>App Placeholder</p>;
 }
 
 export default App;
