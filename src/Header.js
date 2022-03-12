@@ -5,7 +5,6 @@ import logo from './logo.svg';
 
 const HeaderCom = styled.header`
   height: 100px;
-  background-color: #ccc;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +41,7 @@ function Header() {
           <Link to="/search:javascript">Search</Link>
         </li>
         <li>
-          <a href="#how-it-works">How it work</a>
+          <a href="#how-it-works">How it works</a>
         </li>
         <li>
           <a href="#about">About</a>
