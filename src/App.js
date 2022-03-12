@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
+
   );
 }
 
